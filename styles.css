@@ -26,3 +26,7 @@
     border-color: rgb(0, 225, 255);
     box-shadow: 1px 2px 4px #787878;
 }
+
+.conteiner{
+    padding-left: 20px;
+}
