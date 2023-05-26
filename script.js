@@ -18,7 +18,7 @@ function makeTest(){
     count = count + 1
 
     if(count <= 5){
-        conteiner.innerHTML = conteiner.innerHTML + count + value
+        conteiner.innerHTML = conteiner.innerHTML + count + value + "<br/>"
     }else if(count > 5){
 alert ("Можно ввести до 5 дел")
     }
