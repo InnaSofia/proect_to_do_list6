@@ -4,7 +4,7 @@ function makeTest(){
     let conteiner = document.getElementById("conteiner")
     let myTitle = document.getElementById("title")
     let input = document.getElementById("input")  
-    let myValue = input.value
+    let value = input.value
     count = count + 1
     conteiner.innerHTML = conteiner.innerHTML + count + input.value
 }
