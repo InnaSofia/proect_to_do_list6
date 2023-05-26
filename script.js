@@ -7,7 +7,16 @@ function makeTest(){
     let value = input.value
     count = count + 1
     conteiner.innerHTML = conteiner.innerHTML + count + input.value
-}
+
+    
+        
+
+        if(count > 5){
+            document.getElementById('text2').innerHTML = "Можно ввести до 5 дел"
+        
+        }
+    }
+
 
 const input = document.getElementById("input")
 const task = input.value
