@@ -13,13 +13,12 @@ function makeTest(){
 
         if(count > 5){
             document.getElementById('text2').innerHTML = "Можно ввести до 5 дел"
-        
         }
     }
 
 
 const input = document.getElementById("input")
-const task = input.value
+const text2 = input.value
 
 let username = prompt("Введите своё имя:")
 if (username){
