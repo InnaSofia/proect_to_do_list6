@@ -22,5 +22,5 @@ function makeTest(){
     }else if(count > 5){
 alert ("Можно ввести до 5 дел")
     }
-    input.value = ""
+    input.value = ""//стирать поля ввода дел
 }
